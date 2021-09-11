@@ -1,0 +1,127 @@
+.wrapper {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header p {
+    position: absolute;
+    color: orange;
+    top: 0;
+    right: 0;
+    font-size: 70px;
+    font-family: 'Corben', cursive;
+
+}
+
+.header img {
+    width: 100%;
+
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.about ul {
+    column-count: 2;
+    margin-right: auto;
+}
+
+.about li {
+    text-align: left;
+}
+
+.hero2 {
+    text-align: center;
+}
+
+.menu2 ul {
+    column-count: 2;
+    margin-right: auto;
+}
+
+.menu2 li {
+    text-align: left;
+}
+
+/*
+.content {
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-inline-start : 0;
+}
+
+.content li {
+
+    /* width: calc(60%/3);*/
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+
+.content li img {
+    /*
+    width: 180px;
+    height: 180px;
+*/
+    width: 20vw;
+    height: 20vw;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.inst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.inst h2 {
+    text-align: center;
+}
+
+.inst iframe {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+*/
+
+.map {
+
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    height: 30px;
+
+}
