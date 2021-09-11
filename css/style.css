@@ -19,13 +19,11 @@ ul {
     top: 0;
     right: 0;
     font-size: 70px;
-    font-family: 'Corben', cursive;
-
+    font-family: "Corben", cursive;
 }
 
 .header img {
     width: 100%;
-
 }
 
 .hero {
@@ -58,34 +56,19 @@ ul {
     text-align: left;
 }
 
-/*
-.content {
-    margin:auto;
-    display: flex;
-    justify-content: space-around;
-}
-*/
-
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-inline-start : 0;
+    padding-inline-start: 0;
 }
 
 .content li {
-
-    /* width: calc(60%/3);*/
     padding: 0 10px;
     box-sizing: border-box;
-
 }
 
 .content li img {
-    /*
-    width: 180px;
-    height: 180px;
-*/
     width: 20vw;
     height: 20vw;
     border: solid 1px #ccc;
@@ -100,28 +83,14 @@ ul {
     align-items: center;
 }
 
-/*
-.inst h2 {
-    text-align: center;
-}
-
-.inst iframe {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-*/
-
 .map {
-
     text-align: center;
     margin-bottom: 100px;
 }
-
 
 .footer {
     background-color: darkgray;
     color: white;
     text-align: center;
     height: 30px;
-
 }
